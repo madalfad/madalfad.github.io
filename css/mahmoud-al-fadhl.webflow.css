@@ -579,7 +579,6 @@
   display: flex;
   position: relative;
   bottom: 0%;
-  overflow: visible;
 }
 
 .hero-preheading {
@@ -2582,6 +2581,10 @@
   font-size: 54px;
 }
 
+.input {
+  color: var(--clicked);
+}
+
 .paragraph-2 {
   text-align: center;
   font-family: Inter, sans-serif;
@@ -2661,6 +2664,12 @@
   font-family: Inter, sans-serif;
   font-size: 24px;
   font-weight: 400;
+}
+
+.timer-setting {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2918,8 +2927,8 @@
   }
 
   .projects-section {
-    grid-column-gap: 1vh;
-    grid-row-gap: 1vh;
+    grid-column-gap: 6vh;
+    grid-row-gap: 6vh;
     flex-flow: column;
     justify-content: center;
     align-items: center;
@@ -3587,6 +3596,11 @@
     padding-bottom: 88px;
   }
 
+  .timer-controls {
+    display: block;
+    overflow: visible;
+  }
+
   .hero-text {
     font-size: 5.5rem;
     line-height: 4rem;
@@ -3832,6 +3846,14 @@
     font-size: 2.5rem;
   }
 
+  .timer-settings {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: block;
+  }
+
   .hero-text {
     font-size: 16vw;
     line-height: 13vw;
@@ -3982,6 +4004,11 @@
   .margin-bottom-45px {
     margin-bottom: 27px;
   }
+
+  .heading-8 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
-
-
